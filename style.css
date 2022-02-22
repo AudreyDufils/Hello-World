@@ -120,8 +120,6 @@ button{
 }
 .apropos{
     margin-top:5rem;
-    width: 100vw;
-    height: 50vh;
     background-image: url("Ressources/fond.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -129,14 +127,18 @@ button{
     margin-bottom: 2rem;
     display:flex;
     align-items:center;
+    padding-top:5vh;
+    padding-bottom:5vh;
+    padding-left:40vh;
 }
 #blocwhite{
     background-color:white;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 450px;
-    margin-right: 1000px;
+    /*margin-bottom: 20px;*/
+    /*margin-top: 20px;*/
+    /*margin-left: 450px;*/
+    /*margin-right: 1000px;*/
     padding:30px;
+    max-width:35vw;
 }
 .contact{
     padding-bottom: 0;
